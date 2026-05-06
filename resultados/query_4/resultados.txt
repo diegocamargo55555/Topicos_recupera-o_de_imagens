@@ -1,0 +1,7 @@
+Resultados para Consulta Interativa 4: aki32e00.png
+------------------------------------------------------------
+  [1] aji32e00-page02_1.png | Score: 0.774 (Visual: 0.936, Espacial: 0.396)
+  [2] adh36e00-page2_1.png | Score: 0.660 (Visual: 0.944, Espacial: 0.000)
+  [3] adh36e00_1.png | Score: 0.660 (Visual: 0.944, Espacial: 0.000)
+  [4] aah97e00-page02_1.png | Score: 0.653 (Visual: 0.933, Espacial: 0.000)
+  [5] agw39d00.png | Score: 0.521 (Visual: 0.744, Espacial: 0.000)

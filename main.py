@@ -4,6 +4,9 @@ import torchvision.transforms as transforms
 from PIL import Image
 
 """
+dataset utilizado: https://www.kaggle.com/datasets/sprytte/tobacco-800-dataset
+
+metodo de download utilizado
 #!/bin/bash
 curl -L -o ~/Downloads/tobacco-800-dataset.zip\
   https://www.kaggle.com/api/v1/datasets/download/sprytte/tobacco-800-dataset
@@ -13,7 +16,6 @@ dispositivo = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print(f"Usando dispositivo: {dispositivo}")
 
 modelo = models.resnet18(weights=models.ResNet18_Weights.DEFAULT)
-modelo.fc = torch.nn.Identity()  
 modelo.to(dispositivo).eval()
 
 pre_processamento = transforms.Compose([
@@ -71,10 +73,15 @@ def calcular_pontuacao(caract_query, norm_query, caract_bd, norm_bd, alfa=0.7):
     return pontuacao_final, sim_visual, sim_espacial
 
 def selecionar_regiao_interativo(caminho_imagem):
-    img = cv2.imread(caminho_imagem)
+    img = cv2.imread(caminho_imagem)        
     alt, larg = img.shape[:2]
-    escala = 800 / max(alt, larg) if max(alt, larg) > 800 else 1.0
-    imagem_exibicao = cv2.resize(img, (int(larg*escala), int(alt*escala)))
+    
+    LARG_MAX, ALT_MAX = 1200, 700 
+    escala = min(LARG_MAX / larg, ALT_MAX / alt)
+    if escala > 1.0: escala = 1.0
+    
+    larg_nova, alt_nova = int(larg * escala), int(alt * escala)
+    imagem_exibicao = cv2.resize(img, (larg_nova, alt_nova))
     
     print(f"\n[INTERATIVO] Selecione a região em {os.path.basename(caminho_imagem)}")
     

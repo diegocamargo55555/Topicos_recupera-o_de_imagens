@@ -1,0 +1,7 @@
+Resultados para Consulta Interativa 3: ajz31e00.png
+------------------------------------------------------------
+  [1] afm90c00-first_1.png | Score: 0.587 (Visual: 0.746, Espacial: 0.217)
+  [2] agw39d00.png | Score: 0.571 (Visual: 0.816, Espacial: 0.000)
+  [3] adn64a00-page02_2.png | Score: 0.554 (Visual: 0.653, Espacial: 0.322)
+  [4] aeq93a00.png | Score: 0.543 (Visual: 0.775, Espacial: 0.000)
+  [5] aao54e00_1.png | Score: 0.540 (Visual: 0.771, Espacial: 0.000)

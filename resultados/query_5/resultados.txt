@@ -1,0 +1,7 @@
+Resultados para Consulta Interativa 5: ald41a00-ernest.png
+------------------------------------------------------------
+  [1] aik94f00-page02_1.png | Score: 0.769 (Visual: 0.851, Espacial: 0.578)
+  [2] aik94f00-page02_2.png | Score: 0.678 (Visual: 0.866, Espacial: 0.239)
+  [3] aex05f00_2.png | Score: 0.546 (Visual: 0.722, Espacial: 0.137)
+  [4] aeq93a00.png | Score: 0.521 (Visual: 0.691, Espacial: 0.125)
+  [5] aam09c00.png | Score: 0.509 (Visual: 0.699, Espacial: 0.065)

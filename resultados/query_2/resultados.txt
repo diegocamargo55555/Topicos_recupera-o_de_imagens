@@ -1,0 +1,7 @@
+Resultados para Consulta Interativa 2: ajy01c00.png
+------------------------------------------------------------
+  [1] aao54e00_2.png | Score: 0.766 (Visual: 0.937, Espacial: 0.366)
+  [2] aao54e00_1.png | Score: 0.762 (Visual: 0.948, Espacial: 0.329)
+  [3] aah97e00-page02_2.png | Score: 0.703 (Visual: 0.897, Espacial: 0.249)
+  [4] aah97e00-page02_1.png | Score: 0.642 (Visual: 0.895, Espacial: 0.052)
+  [5] aeb95e00.png | Score: 0.642 (Visual: 0.917, Espacial: 0.000)
